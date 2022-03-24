@@ -1,0 +1,5 @@
+number = input('').split(' ')
+hasil_bagi = int(number[0])/int(number[1])
+hasil_sisa = int(number[0])%int(number[1])
+print(f"masing-masing {int(hasil_bagi)}")
+print(f"bersisa {int(hasil_sisa)}")

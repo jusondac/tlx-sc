@@ -1,0 +1,6 @@
+number = input('').split(' ')
+# number = '5 7'.split(' ')
+n = float(number[0])
+m = float(number[1])
+luas_segitiga = ((m*n) / 2)
+print(f"{luas_segitiga:.2f}")
